@@ -1,0 +1,282 @@
+/*start main rules*/
+
+.clear-fix
+{
+	clear: both;
+}
+/*start container */
+.container{width:1170px;margin:auto;}
+/*end container */
+/*start header*/
+.header .slider
+{
+	height:600px;
+	background-image: url('../images/portfolio-mixed2.jpg');
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.header .slider .intro{padding-top: 200px;color: #FFF;text-align: center;}
+.header .slider .intro h2
+{   color: #FFF;
+	margin: 0px auto;
+	font-size: 50px;
+	width: 600px;
+	border-top: 1px solid #FFF;
+	border-bottom:3px solid #FFF;
+	padding: 5px 0;
+
+}
+.header .slider .intro button
+{
+  background:none;
+  color: #FFF;
+  min-width: 140px;
+  font-size: 20px;
+  margin-top: 20px;
+  border-color: #FFF;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+.header .navbar{background-color:#2A3235;color:#FFF;overflow:hidden;}
+.header .navbar h2{float:left;color: #FFF;}
+.header .navbar h2 span{color:#04F364;}
+.header .navbar ul{list-style:none;padding-left:0;float:right;}
+.header .navbar ul li{float:left;padding:10px;}
+.header .navbar ul li a{color: #FFF;text-decoration: none;}
+.header .navbar ul li .active a,
+.header .navbar ul li a:hover{color:#04F364;}
+/*end header */
+
+/*start features*/
+.features{padding: 0px;overflow: hidden;}
+.features .feet{float: left;width:33.3333%;}
+.features .feet p{padding: 0 20px 0 0;}
+/*end features*/
+
+/*start aboutMe*/
+.about-me{overflow: hidden;background-color: #F1F1F2;}
+.about-me .image{float: left;width: 40%}
+.about-me .image img{width: 100%}
+.about-me .info
+{   overflow: hidden;
+	float: left;
+	width: 60%;
+	box-sizing: border-box;
+	padding: 25px;	
+
+}
+.about-me .info > p:last-of-type{margin: 15px 0 15px 0;}
+.about-me .info .hobbies{overflow: hidden;}
+.about-me .info .hobbies .content
+{
+	float: left;
+	width: 50%;
+	min-height: 100px;
+	overflow: hidden;
+}
+.about-me .info .hobbies .content .icon{float: left;width: 7%;}
+.about-me .info .hobbies .content .icon img{max-width: 100%;margin: 15px -5px;}
+.about-me .info .hobbies .content .text{float: left;width: 90%;}
+/*end aboutMe */
+/* start my skills*/
+
+.my-skills{overflow: hidden;padding-bottom: 50px;padding-top: 30px;}
+.my-skills .skills,
+.my-skills .prograss{width:50%;float: left;}
+.my-skills .skills > p:last-of-type{margin: 20px 0 40px 0;}
+
+.my-skills .prograss .technique{margin: 30px;}
+.my-skills .prograss .technique div
+{
+	background-color: #F1F1F2;
+	height: 25px;
+}
+.my-skills .prograss .technique div span
+{
+	background-color:#04a34c; 
+	width:83%;
+	display: block;
+	height: 25px;
+	line-height: 25px;
+	text-align: right;
+	color: white;
+	font-weight: bold
+}
+
+/*end my skills*/
+/*start resume*/
+.resume
+{
+	background-color: #F1F1F2;
+	width: auto;
+	height: 300px;
+	text-align: center;
+	padding: 30px;
+
+}
+.resume p{padding: 0 60px;}
+.resume button{margin: 20px;}
+/*end resume*/
+/* start education*/
+.education{overflow: hidden;}
+.education .my-edu{float: left;width: 45%;}
+.education .graphicdesign{float: left;width: 50%;margin: 4% 0 0 5%;}
+.education .graphicdesign .cont{padding: 10px;}
+.education .my-edu  p:last-of-type{margin: 20px 0 40px 0;}
+.education .graphicdesign span:first-of-type{display: block;color: #666; margin-bottom: 10px;}
+.education .graphicdesign span:last-of-type
+{
+    color:white; 
+    display: inline-block;
+    background-color: #04a34c;
+   padding: 5px;
+   margin: 5px 0 5px 0;
+}
+/* end education */
+/* start workexp*/
+
+
+.word-exp{overflow: hidden; }
+.work-exp .my-exp{float: left;width: 45%;}
+.work-exp .lead{float: left;width: 50%;margin: 4% 0 0 5%;}
+.work-exp .my-exp  p:last-of-type{margin: 20px 0 40px 0;}
+.work-exp  .lead span:first-of-type{display: block;color: #666; margin-bottom: 10px;}
+.work-exp  .lead span:last-of-type
+{
+    color:white; 
+    display: inline-block;
+    background-color: #04a34c;
+   padding: 5px;
+   margin: 5px 0 5px 0;
+}
+.work-exp .lead .cont{padding: 10px;}
+/* end workexp*/
+/*start testimonials*/
+.testimonials
+{   
+	background-color: #F1F1F2;
+	width: auto;
+	height: 300px;
+	text-align: center;
+	padding: 60px;
+
+}
+.testimonials q
+{
+	color: gray;
+	line-height: 1.7;
+	font-size: 18px;
+	font-style: italic;
+}
+.testimonials h3{ margin: 40px 0 40px 0;}
+.testimonials ul
+{
+	padding: 0;
+	list-style: none;
+	text-align: center;
+	margin-top: -8px;
+}
+.testimonials ul li
+{
+	width: 10px;
+	height: 10px;
+	border:2px solid #2DCC70;
+	display: inline-block;
+	cursor: pointer;
+	border-radius: 50px;
+}
+.testimonials ul li.active,
+.testimonials ul li:hover{background-color: #2DCC70;}
+/* end testimonnials*/
+/*start portofilio*/
+.port{padding-top: 50px;padding-bottom: 70px;text-align: center;}
+.port h1{color: #494949;font-weight: bold;}
+.port p{padding-top: 30px;}
+.port .our-work{overflow: hidden;padding: 90px;}
+.port .our-work > div{float: left;width: 33.3333%	}
+.port .our-work > div img
+{
+	width: 92%;
+	margin-bottom:20px;
+	border:2px solid #CCC;
+	background-color: #FFF;
+}
+/*end portofilio*/
+/* start contact*/
+.contact 
+{
+	overflow: hidden;
+	background-color: #2A3235;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.contact .info h2{color: white;}
+.contact .info p{color: gray;}
+.contact .info p strong{color: white;}
+.contact .info{float: left;width: 50%;margin-right: 5%}
+.contact .boxes{float: left;width: 45%;}
+.contact .boxes label 
+{  color: white;
+   display: block;
+   margin-bottom: 10px;
+   margin-top: 10px;
+}
+.contact .boxes input[type="text"]
+{
+	background-color: #4D5658;
+	border :0;
+	padding: 8px;
+	width: 80%;
+
+}
+.contact .boxes textarea
+{
+	background-color: #4D5658;
+	border :0;
+	padding: 8px;
+	width: 80%;
+	height: 300px;
+	color: white;
+	display: block;
+	margin-bottom: 20px;
+
+}
+.contact .boxes .special
+{
+	background-color: #1f2227;
+	border:0;
+	padding: 15px;
+	color: white;
+	width: 30%
+}
+
+/*end contact*/
+/*start footer*/
+.footer
+{
+	text-align: center;
+	background-color: #000000;
+	color: gray;
+	padding: 20px;
+}
+.footer ul{list-style: none;padding-left: 0;}
+.footer ul li{display: inline-block;width: 30px}
+.footer ul li img{width: 23px;height: 23px;border-radius: 70px;}
+/*end footer*/
+/*my farme work*/
+.mybutton
+{
+	border:2px solid #00c490;
+	background:none;
+	color: #00c458;
+	padding: 10px 20px;
+	border-radius: 100px;	
+}
+h2,h1{color: #555;}
+h3{color:#3e3e3f}
+p{line-height: 1.6;color:#7f7c7c;}
+ hr{background-color: #cfcfd1;margin: 10px;height: 1px;}
+/*end main rules*/
